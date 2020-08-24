@@ -151,7 +151,7 @@ public class QueryForm extends LoginPage{
 		SubmitButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
-				String extension = emailBox.getText();
+				String domain = emailBox.getText();
 				
 				if(FirstNametxt.getText().equals("") || LastNametxt.getText().equals("")||SubjecttxtBox.getText().equals("")||emailBox.getText().equals("")||textArea.getText().equals(""))
 				{
@@ -161,7 +161,7 @@ public class QueryForm extends LoginPage{
 					sentMessage.setText("Query failed to submit!");
 					
 				}	
-				else if( extension.length()>10 && extension.substring(extension.length()-10,extension.length()).equalsIgnoreCase("@gmail.com"))
+				else if( domain.length()>10 && domain.substring(extension.length()-10,domain.length()).equalsIgnoreCase("@gmail.com"))
 				{
 				
 					
@@ -273,7 +273,7 @@ public class QueryForm extends LoginPage{
 					}
 					
 				}
-				else if(extension.length()<=10||extension.substring(extension.length()-10,extension.length())!="@gmail.com")
+				else if(domain.length()<=10||domain.substring(extension.length()-10,domain.length())!="@gmail.com")
 				{
 					ImageLabel.setIcon(new ImageIcon(getClass().getResource("/resources/close.png")));
 					sentMessage.setForeground(Color.RED);
