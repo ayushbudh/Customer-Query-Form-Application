@@ -120,9 +120,10 @@ public class LoginPage {
 		LoginButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
+				String UserName ="orange";
 				char correctPassword[] = {'a','p','p','l','e'};
 				char inputPassword[] = passwordField.getPassword();
-				if(textField.getText().equals("orange") && Arrays.equals(inputPassword, correctPassword))
+				if(textField.getText().equals(UserName) && Arrays.equals(inputPassword, correctPassword))
 				{
 					sentMessage.setForeground(Color.GREEN);
 					sentMessage.setText("Login successful!");
