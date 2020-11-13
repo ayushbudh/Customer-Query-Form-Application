@@ -16,3 +16,6 @@ username and password (which can be found below in instructions).
    Also sender e-mail address and password needs to be input by the user using lines 169 and 170 in QueryForm.java file.
 
 3. Only gmail domain needs to be used when entering the e-mail for both sender and reciever. If any other domain is used a pop-up dialog error message box        will appear on the screen indicating for the usage of email address with gmail domain. 
+
+<img src="screenshots/Snip1.png" width="400px" >
+<img src="screenshots/Snip2.png" width="400px" >
