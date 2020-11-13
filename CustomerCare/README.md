@@ -17,5 +17,8 @@ username and password (which can be found below in instructions).
 
 3. Only gmail domain needs to be used when entering the e-mail for both sender and reciever. If any other domain is used a pop-up dialog error message box        will appear on the screen indicating for the usage of email address with gmail domain. 
 
+<br>
+<h1> ScreenShots of the Running Application </h1>
+
 <img src="screenshots/Snip1.png" width="400px" >
 <img src="screenshots/Snip2.png" width="400px" >
