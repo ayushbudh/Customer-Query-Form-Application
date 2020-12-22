@@ -1,3 +1,4 @@
+<h1>Description</h1>
 > Built an customer query application using JFrame and Swing in java which :
 
 1. Allows user to login into his account by inputting correct
@@ -8,7 +9,7 @@ username and password (which can be found below in instructions).
    PS: To get the reply email, user needs to provide the
    login credentials of the sender email account in the program
 
-> Intructions to use Application
+<h1>Instructions</h1>
 
 1. Username is "orange" and Password is "apple" which can be changed using lines 124 and 125 in LoginPage.java file.
 
