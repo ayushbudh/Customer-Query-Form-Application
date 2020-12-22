@@ -20,7 +20,7 @@
 </ol>
 
 <br>
-<h1> ScreenShots of the Running Application </h1>
+<h2>Application Demo</h2>
 
 
 <span><img src="screenshots/Snip1.png" width="310px" height="364px"></span>
