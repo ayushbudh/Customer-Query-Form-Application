@@ -19,5 +19,8 @@ username and password (which can be found below in instructions).
 
 <br>
 <h1> ScreenShots of the Running Application </h1>
-<img src="screenshots/Snip1.png" width="400px" >
-<img src="screenshots/Snip2.png" width="400px" >
+
+
+<span><img src="screenshots/Snip1.png" width="310px" height="364px"></span>
+<span><img src="screenshots/Snip2.png" width="310px"></span>
+<span><img src="screenshots/Snip2.png" width="310px" ></span>
